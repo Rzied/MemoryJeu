@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* overflow: hidden; */
+    height: 100vh;
+}
+
+.jeu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.ligne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin:auto 0px ; */
+}
+
+.case {
+    margin: 0.5vw;
+
+}
+
+img {
+    width: 100%;
+    height: 180px;
+}
+
+.dessin{
+    visibility: hidden;
+    width: 0;
+}
+h1{
+    margin: 0px auto;
+}
+#messages{
+    display: flex;
+    justify-content: space-between;
+
+}
+#boutons{
+    text-align: center;
+}
